@@ -38,15 +38,19 @@ module.exports = {
         rules: [
             {
                 test: /\.css$/,
-                use: ['style-loader', 'css-loader'],
-                include: /flexboxgrid/
+                use: ['style-loader', 'css-loader']
             },
             {
                 test: /\.(png|svg|jpg|gif)$/,
-                use: ['file-loader']
+                use: {
+                    loader: "file-loader",
+                    options: {
+                        name: "[path][name].[hash].[ext]",
+                    },
+                },
             },
             {
-                test: /\.js|.jsx?$/,
+                test: /\.jsx?$/,
                 exclude: /(node_modules)/,
                 loaders: ["babel-loader"]
             }]

@@ -9,7 +9,7 @@ import Container from "./containers/container";
 export const SearchNetflixApp = () => {
 
     return (
-        <div >
+        <div className="app">
             <Header />
             <Container />
             <Footer />
