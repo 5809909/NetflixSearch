@@ -1,8 +1,8 @@
 import React, {Component} from "react";
 import styles from './components/css/styles.css'
-import { Header } from "./components/header.jsx";
 import { Footer } from "./components/footer.jsx";
-import Container from "./containers/container";
+import Container from "./containers/search-container";
+import {ResultContainer} from "./containers/result-container.jsx";
 
 
 
@@ -10,9 +10,9 @@ export const SearchNetflixApp = () => {
 
     return (
         <div className="app">
-            <Header />
-            <Container />
-            <Footer />
+            < Container />
+            < ResultContainer />
+            < Footer />
         </div>
     );
 };
