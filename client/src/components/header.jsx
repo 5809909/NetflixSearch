@@ -1,4 +1,3 @@
 import React from "react";
-import {HEADER_TEXT} from "../constants";
 
-export const Header = () => <p className="header">{HEADER_TEXT}</p>;
+export const Header = (props) => <p className="header">{props.text}</p>;

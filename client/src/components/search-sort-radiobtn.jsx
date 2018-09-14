@@ -1,13 +1,7 @@
-import React, {Component} from 'react';
+import React from 'react';
 
-export class SearchSortType extends Component {
-	constructor(props) {
-		super(props);
+const SearchSortType = () =>{
 
-	}
-
-
-	render() {
 		return (
 			<div >
 				<span>SEARCH BY </span>
@@ -15,5 +9,6 @@ export class SearchSortType extends Component {
 				<button className="director-btn sort-btn">DIRECTOR</button>
 			</div>
 		)
-	}
-}
+
+};
+export default SearchSortType;

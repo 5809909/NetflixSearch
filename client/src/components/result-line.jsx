@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 
 export class ResultLine extends Component {
 	constructor(props) {
@@ -9,11 +9,10 @@ export class ResultLine extends Component {
 	render() {
 		return (
 			<div className="result-line">
-				<div className="result-number">
+				<div className="result-count">
 					<span >7 movies found</span>
 				</div>
-
-				<div className="sort-result">
+				<div className="results-filter">
 					<span> Sort by </span>
 					<span> release date </span>
 					<span> raiting </span>

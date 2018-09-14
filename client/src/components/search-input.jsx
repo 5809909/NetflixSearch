@@ -1,18 +1,11 @@
-import React, {Component} from 'react';
+import React from 'react';
 
-export class SearchInput extends Component {
-	constructor(props) {
-		super(props);
+export const SearchInput = () => {
 
-	}
-
-
-	render() {
-		return (
-			<input
-				className="search-input"
-				placeholder="Enter search text"
-			/>
-		)
-	}
-}
+	return (
+		<input
+			className="search-input"
+			placeholder="Enter search text"
+		/>
+	)
+};

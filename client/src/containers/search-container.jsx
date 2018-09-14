@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {SearchInput} from "../components/search-input";
 import {SearchButton} from "../components/search-button";
-import {SearchSortType} from "../components/search-sort-radiobtn";
+import SearchSortType from "../components/search-sort-radiobtn";
 
 export class SearchContainer extends Component {
 	constructor(props) {
@@ -13,10 +13,10 @@ export class SearchContainer extends Component {
 		return (
 			<div className="search-form">
 				<p>FIND YOUR MOVIE</p>
-				< SearchInput/>
+				< SearchInput />
 				<div className="sort-form-type">
-					< SearchSortType/>
-					< SearchButton/>
+					< SearchSortType />
+					< SearchButton />
 				</div>
 			</div>
 		)

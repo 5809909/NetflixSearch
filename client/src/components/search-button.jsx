@@ -1,14 +1,8 @@
-import React, {Component} from 'react';
+import React from 'react';
 
-export class SearchButton extends Component {
-	constructor(props) {
-		super(props);
+export const SearchButton = () => {
 
-	}
+	return (
+		<button className="search-btn">SEARCH</button>)
 
-
-	render() {
-		return (
-			<button className="search-btn">SEARCH</button>)
-	}
 }
