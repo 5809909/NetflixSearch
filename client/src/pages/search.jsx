@@ -21,13 +21,14 @@ export const Search = () => {
                     < SearchInput/>
                     <div className="sort-form-type">
                         < SearchSortType/>
-                        < SearchButton/>
+                        < SearchButton className="search-btn"/>
                     </div>
+
                 </div>
             </div>
             <div className="result-container">
                 <div className="result-line">
-                    < ResultCount count={9}/>
+                    < ResultCount text="9 films found"/>
                     < ResultFilter/>
                 </div>
                 < ResultBody count={9} data={films}/>

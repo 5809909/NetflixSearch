@@ -1,8 +1,8 @@
 import React from 'react';
 
-export const SearchButton = () => {
+export const SearchButton = (props) => {
 
 	return (
-		<button className="search-btn">SEARCH</button>)
+		<button className={props.className}>SEARCH</button>)
 
 }

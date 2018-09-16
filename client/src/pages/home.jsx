@@ -19,7 +19,7 @@ export const Home = () => {
                     < SearchInput />
                     <div className="sort-form-type">
                         < SearchSortType />
-                        < SearchButton />
+                        < SearchButton className="search-btn"/>
                     </div>
                 </div>
             </div>
@@ -27,7 +27,7 @@ export const Home = () => {
                 <div className="result-line">
                     < ResultCount/>
                 </div>
-                < ResultBody count={0}/>
+                < ResultBody />
             </div>
             )
             < Footer text={FOOTER_TEXT}/>

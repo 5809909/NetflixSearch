@@ -10,8 +10,8 @@ export const App = () => {
     return (
         <Switch>
             <Route exact path='/' component={Home}/>
-            <Route path='/film' component={Film}/>
             <Route path='/search' component={Search}/>
+            <Route path='/film' component={Film}/>
             {/*<Route path='*' component={NotFound}/>*/}
         </Switch>)
 };
