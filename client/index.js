@@ -1,5 +1,11 @@
 import React from 'react';
-import {render}  from 'react-dom';
-import { SearchNetflixApp }from './src/search-netflix-app.jsx'
+import ReactDOM from 'react-dom'
+import { BrowserRouter } from 'react-router-dom'
+import {App} from "./src/app";
+import styles from './src/components/css/styles.css'
 
-render(<SearchNetflixApp />, document.getElementById("root"));
+ReactDOM.render(
+    <BrowserRouter>
+        <App/>
+    </BrowserRouter>,
+    document.getElementById("root"));

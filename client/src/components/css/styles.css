@@ -89,6 +89,7 @@ button{
 	font-weight: bold;
 	padding: 0.5em 3em;
 	justify-content: space-between;
+	min-height: 1.5em;
 }
 
 button, input:focus {
