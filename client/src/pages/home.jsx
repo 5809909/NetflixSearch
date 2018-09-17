@@ -7,6 +7,7 @@ import {ResultCount} from "../components/result-count";
 import {SearchInput} from "../components/search-input";
 import SearchSortType from "../components/search-sort-radiobtn";
 import {SearchButton} from "../components/search-button";
+import {Link} from "react-router-dom";
 
 export const Home = () => {
 
@@ -19,7 +20,7 @@ export const Home = () => {
                     < SearchInput />
                     <div className="sort-form-type">
                         < SearchSortType />
-                        < SearchButton className="search-btn"/>
+                      <Link to={'/search'} > < SearchButton className="search-btn"/></Link>
                     </div>
                 </div>
             </div>

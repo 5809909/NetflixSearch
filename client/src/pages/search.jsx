@@ -18,7 +18,7 @@ export const Search = () => {
                 < Header text={HEADER_TEXT}/>
                 <div className="search-form">
                     <p>FIND YOUR MOVIE</p>
-                    < SearchInput/>
+                    < SearchInput text="CAT"/>
                     <div className="sort-form-type">
                         < SearchSortType/>
                         < SearchButton className="search-btn"/>

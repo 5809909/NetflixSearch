@@ -5,7 +5,7 @@ export const ResultFilter = () => {
     return (
         <div className="results-filter">
             <span> Sort by </span>
-            <span> release date </span>
-            <span> raiting </span>
+            <span className="result-filter-release-date"> release date </span>
+            <span className="result-filter-rating"> rating </span>
         </div>    )
 }

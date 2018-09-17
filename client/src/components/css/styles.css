@@ -80,6 +80,11 @@ button {
     padding: 0.3em 0.9em;
 }
 
+.result-filter-release-date{
+    color: #f55263;
+}
+
+
 .director-btn {
     background-color: #414141;
 }
@@ -122,6 +127,9 @@ button {
 .item-card {
     margin: 2em;
 }
+.item-image {
+    min-width: 17em;
+}
 
 .item-text {
     display: flex;
@@ -134,7 +142,7 @@ button {
 .item-title {
     font-weight: bolder;
     text-transform: uppercase;
-    width: 15em;
+    width: 14em;
 
 }
 
@@ -150,11 +158,53 @@ button {
     display: flex;
     margin: 1em;
 }
+
+.film-image{
+    min-width: 20em;
+}
 .film-properties{
-    margin: 1em;
+    color: #b7b7b7;
+    margin-left: 3em;
+    font-size: x-large;
 }
 
+.film-title {
+    color: #f55263;
+    font-weight: bolder;
+    font-size: xx-large;
+    margin: 0.3em 0;
 
+}
+.film-rating {
+    border-radius: 50%;
+    border: solid #728b58 1px;
+    padding: 10px;
+    font-size: x-large;
+    color: #b0de80;
+    margin-left: 1em;
+}
+.film-genre {
+    margin: 0.5em 0;
+}
+.film-year {
+    color: white;
+    font-weight: bolder;
+    margin:1em 0 ;
+}
+
+.film-duration{
+    margin-left: 2em;
+}
+
+.film-description {
+    margin:2em 0;
+}
+
+.film-director,
+.film-cast {
+    font-size: medium;
+    margin-bottom: 1em;
+}
 
 
 

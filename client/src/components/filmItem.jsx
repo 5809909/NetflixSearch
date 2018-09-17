@@ -5,7 +5,7 @@ export function FilmItem({film}) {
     return (
         <Link  to={`/film/${film.title}`}>
             <div className="item-card">
-                <img src={film.image} alt={film.title}/>
+                <img className="item-image" src={film.image} alt={film.title}/>
                 <div className="item-text">
                     <div className="item-title">{film.title}</div>
                     <div className="item-year">{film.year}</div>
