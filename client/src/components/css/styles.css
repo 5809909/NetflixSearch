@@ -9,10 +9,14 @@ span {
 .header {
     color: #f55263;
     font-size: large;
-    margin-bottom: 2.5em;
 }
 
-.search-container, .film-container {
+.search-container {
+    background: #000 url('../../assets/background.jpg');
+    padding: 0.6em 6em;
+}
+
+.film-container {
     background: #000 url('../../assets/background.jpg');
     padding: 0.3em 3em;
 }
@@ -27,6 +31,10 @@ span {
 
 .title-btn {
     background-color: #414141;
+}
+
+.search-form{
+    margin-top: 2.5em;
 }
 
 .sort-form-type {
@@ -64,7 +72,7 @@ button {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: .4em 5em ;
+    margin: .3em 3em ;
 }
 
 .search-btn {
