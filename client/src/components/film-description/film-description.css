@@ -1,0 +1,104 @@
+.film-description {
+    background: #000 url('../../assets/background.jpg');
+    padding: 0.3em 3em;
+}
+
+.film-description__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: .3em 3em;
+}
+
+.search-btn-return {
+    height: 2em;
+    width: 10em;
+    color: #f55263;
+    background-color: white;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.film-description-main {
+    display: flex;
+    margin: 1em;
+}
+
+.film-image {
+    min-width: 20em;
+}
+
+.film-info {
+    color: #b7b7b7;
+    margin-left: 3em;
+    font-size: x-large;
+}
+
+.film-info__title {
+    color: #f55263;
+    font-weight: bolder;
+    font-size: xx-large;
+    margin: 0.3em 0;
+}
+
+.film-info__rating {
+    border-radius: 50%;
+    border: solid #728b58 1px;
+    padding: 10px;
+    font-size: x-large;
+    color: #b0de80;
+    margin-left: 1em;
+}
+
+.film-info__year {
+    color: white;
+    font-weight: bolder;
+    margin: 1em 0;
+}
+
+.film-info__duration {
+    margin-left: 2em;
+}
+
+.film-info__description {
+    margin: 2em 0;
+}
+
+.film-info__director,
+.film-info__cast {
+    font-size: medium;
+    margin-bottom: 1em;
+}
+
+.film-item-card {
+    margin: 1.2em;
+}
+
+.film-item-card__image {
+    max-height: 25em;
+    min-width: 17em;
+}
+
+.film-item-card__text {
+    display: flex;
+    flex-direction: row;
+    color: black;
+    justify-content: space-between;
+}
+
+.film-item-card__title {
+    font-weight: bolder;
+    text-transform: uppercase;
+    max-width: 14em;
+}
+
+.film-item-card__year {
+    float: right;
+    border: 1px solid black;
+    padding: .2em;
+    align-self: flex-start;
+}
+
+.film-item-card__genre {
+    margin: 0.5em 0;
+}

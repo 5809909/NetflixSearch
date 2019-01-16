@@ -8,7 +8,8 @@ module.exports = {
     path: path.join(__dirname, '/dist/assets'),
     filename: '[name].bundle.js',
     publicPath: publicPath,
-    sourceMapFilename: '[name].map'
+    sourceMapFilename: '[name].map',
+     query: {compact: false}
   },
 
   plugins: [
